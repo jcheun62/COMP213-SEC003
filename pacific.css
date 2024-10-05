@@ -39,8 +39,26 @@ ul {
     list-style-image: url(images/marker.gif);
 }
 
+table, td, th{
+    border:2px solid #3399CC;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0.5em;
+    text-align: center;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #a6d6e9;
+}
+
 footer {
     font-size: 75%;
+}
+
+.text{
+    text-align: left;
 }
 
 .resort{
